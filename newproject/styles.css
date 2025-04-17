@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #825CFF;
+    margin-bottom: 20px;
+  }
+  
+  #search-input {
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #825CFF;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  #search-input:focus {
+    border-color: #6a4ccc;
+    box-shadow: 0 0 5px rgba(130, 92, 255, 0.5);
+  }
+  
+  #search-button {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    background-color: #825CFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  #search-button:hover {
+    background-color: #6a4ccc;
+  }
+  
+  #results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .song {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .song:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .song img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .song h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  .song p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .song p strong {
+    color: #825CFF;
+  }
+  
+  .audio-preview {
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+  }
